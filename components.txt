@@ -1,0 +1,20 @@
+
+USB-C: Power sources and programming interface (https://www.mouser.it/ProductDetail/GCT/USB4920-00-A?qs=vcFyY%252BOcAygpR4IfeDpXRQ%3D%3D)
+MicroSD: Persistence storage (SD socket on the PCB)  (https://www.mouser.it/ProductDetail/Amphenol-Commercial-Products/GTFP08441BEU?qs=PzGy0jfpSMszucLOj%252BKyZw%3D%3D)
+TPS63070: Buck-Boost Voltage Regulator
+LMR51430: Buck voltage regulator
+BQ25883: Boost voltage regulator
+STM32F722RETx: MCU 
+ICM-45686: 6-Axis Inertial measurement unit 
+BMP580: barometer
+LED
+
+
+3D MODELS:
+https://componentsearchengine.com
+
+FOOTPRINTS AND SCHEMATICS:
+https://www.snapeda.com
+
+COMPONENTS:
+https://www.mouser.it
