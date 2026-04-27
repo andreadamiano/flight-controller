@@ -1,12 +1,12 @@
 
 USB-C: Power sources and programming interface (https://www.mouser.it/ProductDetail/GCT/USB4920-00-A?qs=vcFyY%252BOcAygpR4IfeDpXRQ%3D%3D)
 MicroSD: Persistence storage (SD socket on the PCB)  (https://www.mouser.it/ProductDetail/Amphenol-Commercial-Products/GTFP08441BEU?qs=PzGy0jfpSMszucLOj%252BKyZw%3D%3D)
-TPS63070: Buck-Boost Voltage Regulator
-LMR51430: Buck voltage regulator
-BQ25883: Boost voltage regulator
-STM32F722RETx: MCU 
-ICM-45686: 6-Axis Inertial measurement unit 
-BMP580: barometer
+TPS63070: Buck-Boost Voltage Regulator (https://www.mouser.it/ProductDetail/Texas-Instruments/TPS630702RNMR?qs=vLWxofP3U2wHUyCq3Fj%2FmQ%3D%3D)
+LMR51430: Buck voltage regulator (https://www.mouser.it/ProductDetail/Texas-Instruments/LMR51430XDDCR?qs=vvQtp7zwQdP8miJIr5Aupg%3D%3D)
+BQ25883: Boost battery charger (https://www.mouser.it/ProductDetail/Texas-Instruments/BQ25883RGER?qs=EBDBlbfErPxzP5IdwHZrfw%3D%3D)
+STM32F722RETx: MCU (https://www.mouser.it/ProductDetail/STMicroelectronics/STM32F722RET6?qs=NoqMqJKvPFLRYC3WLxVXLQ%3D%3D)
+ICM-45686: 6-Axis Inertial measurement unit (https://www.mouser.it/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D)
+BMP581: barometer (https://www.mouser.it/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D)
 LED
 
 

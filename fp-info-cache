@@ -1,4 +1,4 @@
-27246572399558064
+27257233734454577
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107905,6 +107905,20 @@ Varistor VF
 2
 2
 drone_footprints
+BMP581
+BMP581-7
+Undefined or Miscellaneous
+0
+10
+10
+drone_footprints
+LMR51430
+SOT-23-THIN
+Power Supply
+0
+6
+6
+drone_footprints
 MicroSD_socket
 
 
@@ -107912,9 +107926,37 @@ MicroSD_socket
 12
 12
 drone_footprints
+QFN50P300X250X78-14N
+14 Lead LGA (2.5x3x0.81) mm NiAu pad finish
+Diode ESD (Uni-directional)
+0
+14
+14
+drone_footprints
+QFN50P400X400X100-25N-D
+RGE0024
+Integrated Circuit
+0
+25
+25
+drone_footprints
+QFP50P1200X1200X160-64N
+LQFP64 - 64-pin, 10 x 10
+Integrated Circuit
+0
+64
+64
+drone_footprints
 TE_2129691-2
 
 
 0
 30
 30
+drone_footprints
+VREG_TPS630702RNMR
+
+
+0
+13
+13
