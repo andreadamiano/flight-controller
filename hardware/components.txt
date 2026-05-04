@@ -8,6 +8,8 @@ STM32F722RETx: MCU (https://www.mouser.it/ProductDetail/STMicroelectronics/STM32
 ICM-45686: 6-Axis Inertial measurement unit (https://www.mouser.it/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D)
 BMP581: barometer (https://www.mouser.it/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D)
 LED
+25 MHz Crystal: https://www.lcsc.com/product-detail/C9006.html
+32.768 kHz Crystal: https://www.lcsc.com/product-detail/C32346.html?s_z=n_q_C32346
 
 
 3D MODELS:
@@ -18,3 +20,6 @@ https://www.snapeda.com
 
 COMPONENTS:
 https://www.mouser.it
+
+PCB MANUFACTURER:
+https://jlcpcb.com/
