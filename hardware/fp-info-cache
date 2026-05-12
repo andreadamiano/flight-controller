@@ -1,4 +1,4 @@
-27260789599355279
+27264346847423127
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107933,6 +107933,13 @@ Crystal or Oscillator
 2
 2
 drone_footprints
+QFN-8_MP9943_MNP
+
+MP9943GQ-Z 
+0
+8
+8
+drone_footprints
 QFN50P300X250X78-14N
 14 Lead LGA (2.5x3x0.81) mm NiAu pad finish
 Diode ESD (Uni-directional)
@@ -107953,6 +107960,13 @@ Integrated Circuit
 0
 64
 64
+drone_footprints
+SOIC127P790X216-8N
+W25Q128JVSIQ
+Integrated Circuit
+0
+8
+8
 drone_footprints
 TE_2129691-2
 
