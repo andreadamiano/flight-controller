@@ -6,6 +6,7 @@ RT9013-33GB: LDO Voltage Regulator (https://www.unikeyic.com/products/ldo-contro
 STM32F722RETx: MCU (https://www.mouser.it/ProductDetail/STMicroelectronics/STM32F722RET6?qs=NoqMqJKvPFLRYC3WLxVXLQ%3D%3D)
 ICM-45686: 6-Axis Inertial measurement unit (https://www.mouser.it/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D)
 BMP581: barometer (https://www.mouser.it/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D)
+USBLC6-2P6: Diode (
 LED
 25 MHz Crystal: https://www.lcsc.com/product-detail/C9006.html
 32.768 kHz Crystal: https://www.lcsc.com/product-detail/C32346.html?s_z=n_q_C32346
@@ -27,8 +28,8 @@ https://jlcpcb.com/
 
 
 INTERFACES:
-    ESC "Power & Signal" Stack: VBAT, GND, M1, M2, M3, M4, CURR (Connects directly to an STM32 ADC pin)
+    ESC "Power & Signal" Stack: VBAT, GND, M1, M2, M3, M4, CURR, TELEMETRY (CURR return an analog signal measuring the amps of the battery, TELEMETRY return telemetry data)
     RADIO Tranciever (UART): T5, R5, +5V, GND
-    Digital VTX Connector: VBAT, GND, TX, RX, GND, SBUS (Optional)
+    Digital VTX Connector:(Video trasmitter) VBAT, GND, TX, RX, GND, SBUS (Optional)
     GPS (Optional)	5V, GND, T3, R3
     Buzzer & LED (1x3 pads): BZ+, BZ- (via MOSFET), LED_Signal

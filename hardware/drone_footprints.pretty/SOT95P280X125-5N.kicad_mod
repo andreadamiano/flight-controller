@@ -1,0 +1,260 @@
+(footprint "SOT95P280X125-5N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT23-5--1")
+	(tags "Transistor")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9d4724e4-75c7-4952-80e2-5ca7cbd66dbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P280X125-5N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc10db00-cc73-405b-8ce0-1e6daae59960")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb440f5d-8eff-43fe-b4ba-9c1b943d8a63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ff94ee8-b6b9-486a-8791-aa51a05da930")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.5)
+		(end -0.65 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9533afeb-f9e8-4526-8212-d484630eb117")
+	)
+	(fp_line
+		(start -0.3 -1.46)
+		(end 0.3 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f556a90-b65c-4cd5-a921-6097be814ae6")
+	)
+	(fp_line
+		(start -0.3 1.46)
+		(end -0.3 -1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55a32385-ebdf-4399-9a9e-a702781a1b4a")
+	)
+	(fp_line
+		(start 0.3 -1.46)
+		(end 0.3 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49c14162-daef-4404-acbe-668ef39bc566")
+	)
+	(fp_line
+		(start 0.3 1.46)
+		(end -0.3 1.46)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3c48ec8-141c-4dc1-8fe0-e265988fff37")
+	)
+	(fp_line
+		(start -2.1 -1.76)
+		(end 2.1 -1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "552be900-90bd-4a8b-8881-b20a6616cabb")
+	)
+	(fp_line
+		(start -2.1 1.76)
+		(end -2.1 -1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f52e45c-8d13-43c0-ab70-539a21e56822")
+	)
+	(fp_line
+		(start 2.1 -1.76)
+		(end 2.1 1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e50175c-8951-4a04-baf9-2b5577d29031")
+	)
+	(fp_line
+		(start 2.1 1.76)
+		(end -2.1 1.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b7526a0-56c5-461f-90ff-a4f06e1fe6fd")
+	)
+	(fp_line
+		(start -0.8 -1.46)
+		(end 0.8 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e77a2185-b0c9-4280-9191-4b2f9a8f1daf")
+	)
+	(fp_line
+		(start -0.8 -0.51)
+		(end 0.15 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a44cc91b-72d3-439e-8299-25871aba036e")
+	)
+	(fp_line
+		(start -0.8 1.46)
+		(end -0.8 -1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ea53d8c-4fe0-4b23-b7e1-c1d8b93da609")
+	)
+	(fp_line
+		(start 0.8 -1.46)
+		(end 0.8 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5990ac19-6626-4154-9f67-19f86d1f5fb7")
+	)
+	(fp_line
+		(start 0.8 1.46)
+		(end -0.8 1.46)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3b0dc97-16d2-420d-b7f6-2e13fbd24b03")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aca134c8-3bad-4c3f-ac39-c4ed59cc8382")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a754dc26-20b2-48d3-a688-f5fd9c6d1728")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c9928c50-9e21-45cb-81bd-55872cb2a891")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b4e0dac-3b04-4ce4-ae34-51780615da67")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "639a352e-dd04-4ea1-8602-111650f00f3c")
+	)
+	(pad "5" smd rect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75dcdd86-d665-429a-a620-b007ffa3aeac")
+	)
+	(embedded_fonts no)
+	(model "TPRT9013-33GB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/andrea/projects/Hardware/assets/TPRT9013-33GB/TPRT9013-33GB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
