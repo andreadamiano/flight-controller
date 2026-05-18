@@ -1,4 +1,5 @@
 
+BILL OF MATERIALS:
 USB-C: Power sources and programming interface (https://www.mouser.it/ProductDetail/GCT/USB4920-00-A?qs=vcFyY%252BOcAygpR4IfeDpXRQ%3D%3D)
 W25Q128JVSIQ: Persistence storage (SPI Flash)  (https://www.unikeyic.com/products/flash-memory/w25q128jvsiq/27497058.html?sku=1003001012328089)
 MP9943AGQ-Z: Buck Voltage Regulator (https://www.unikeyic.com/products/dc-dc-controller/mp9943agq-z/34017895.html?sku=165500102469)
@@ -6,7 +7,9 @@ RT9013-33GB: LDO Voltage Regulator (https://www.unikeyic.com/products/ldo-contro
 STM32F722RETx: MCU (https://www.mouser.it/ProductDetail/STMicroelectronics/STM32F722RET6?qs=NoqMqJKvPFLRYC3WLxVXLQ%3D%3D)
 ICM-45686: 6-Axis Inertial measurement unit (https://www.mouser.it/ProductDetail/TDK-InvenSense/ICM-45686?qs=vvQtp7zwQdPk96IFOwypvQ%3D%3D)
 BMP581: barometer (https://www.mouser.it/ProductDetail/Bosch-Sensortec/BMP581?qs=Li%252BoUPsLEntPL9tlFmcgXg%3D%3D)
-USBLC6-2P6: Diode (
+USBLC6-2P6: Diode (https://www.unikeyic.com/products/esd-suppressors/usblc6-2p6/999628957.html?sku=1003001022980513)
+BAT54C: Diode (https://www.unikeyic.com/products/schottky-diodes/bat54c/999145606.html?sku=1003001029363527)
+UPZ1608E101-3R0TF: FerriteBead (https://www.unikeyic.com/products/magnetic-beads/upz1608e101-3r0tf/24000948.html?sku=1003001012328461)
 LED
 25 MHz Crystal: https://www.lcsc.com/product-detail/C9006.html
 32.768 kHz Crystal: https://www.lcsc.com/product-detail/C32346.html?s_z=n_q_C32346

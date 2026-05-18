@@ -2079,7 +2079,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "QFN50P300X250X78-14N"
+		(property "Footprint" "drone_footprints:QFN50P300X250X78-14N"
 			(at 72.39 -64.44 0)
 			(effects
 				(font
