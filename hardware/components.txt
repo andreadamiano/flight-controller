@@ -35,3 +35,13 @@ INTERFACES:
     RADIO Tranciever (UART): T5, R5, +5V, GND
     Digital VTX Connector:(Video trasmitter) +9V, GND, TX, RX, GND, SBUS (Optional)
     GPS	5V, GND, T3, R3
+
+
+LAYER STACKUP:
+SIGNAL high speed, critical signals, short routes
+GND
+VCC 3.3V + 5V
+VCC VBAT + 9V
+GND
+SIGNAL low speed, peripheral signals, longer runs
+
