@@ -10700,7 +10700,7 @@
 		)
 		(uuid "e9afd2a9-7d74-4358-95e6-82ef85c50198")
 	)
-	(label "USART2_RX"
+	(label "UART2_RX"
 		(at 279.4 157.48 90)
 		(effects
 			(font
@@ -11796,7 +11796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5VBAT"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -15696,7 +15696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V"
+		(property "Value" "+3.3V"
 			(at 275.59 226.06 0)
 			(effects
 				(font

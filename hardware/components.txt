@@ -34,14 +34,15 @@ INTERFACES:
     ESC "Power & Signal" Stack: VBAT, GND, M1, M2, M3, M4, CURR, TELEMETRY (CURR return an analog signal measuring the amps of the battery, TELEMETRY return telemetry data)
     RADIO Tranciever (UART): T5, R5, +5V, GND
     Digital VTX Connector:(Video trasmitter) +9V, GND, TX, RX, GND, SBUS (Optional)
-    GPS	5V, GND, T3, R3
+    GPS	5V, GND, T3, R3 
 
 
 LAYER STACKUP:
-SIGNAL high speed, critical signals, short routes
+SIGNAL high speed, critical signals, short routes  (USB, Crystal signals, SPI, I2C)
 GND
 VCC 3.3V + 5V
 VCC VBAT + 9V
 GND
-SIGNAL low speed, peripheral signals, longer runs
+SIGNAL low speed, peripheral signals, longer runs  (UART, PMW, LED, GPS)
+
 
