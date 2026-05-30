@@ -6892,6 +6892,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 101.6) (xy 339.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f6a867-98e4-4d61-ba75-28091a123c95")
+	)
+	(wire
+		(pts
 			(xy 289.56 194.31) (xy 295.91 194.31)
 		)
 		(stroke
@@ -7189,16 +7199,6 @@
 			(type default)
 		)
 		(uuid "24ab2a6c-bbbf-451e-92a0-30c90fc91b85")
-	)
-	(wire
-		(pts
-			(xy 325.12 104.14) (xy 339.09 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24b5ba07-af00-40eb-a09c-bd901c278dd8")
 	)
 	(wire
 		(pts
@@ -8412,6 +8412,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 104.14) (xy 339.09 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8920d701-54eb-468d-9881-06120536b953")
+	)
+	(wire
+		(pts
 			(xy 254 99.06) (xy 271.78 99.06)
 		)
 		(stroke
@@ -9242,16 +9252,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 101.6) (xy 339.09 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9979a13-d655-48ef-a56d-32299f044413")
-	)
-	(wire
-		(pts
 			(xy 325.12 124.46) (xy 340.36 124.46)
 		)
 		(stroke
@@ -9382,16 +9382,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 55.88) (xy 307.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d48323c6-8885-4b25-a66f-e4073aac7085")
-	)
-	(wire
-		(pts
 			(xy 198.12 119.38) (xy 208.28 119.38)
 		)
 		(stroke
@@ -9472,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 279.4 157.48)
+			(xy 279.4 144.78) (xy 279.4 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10060,7 +10050,7 @@
 		)
 		(uuid "134f2f35-1534-48c4-ab28-0e5f0720daa0")
 	)
-	(label "USART5_TX"
+	(label "GPS_RX"
 		(at 337.82 35.56 180)
 		(effects
 			(font
@@ -10180,7 +10170,7 @@
 		)
 		(uuid "31083eff-2cc9-4a4f-aea4-15e0a1e3e011")
 	)
-	(label "TIM2_CH1"
+	(label "GPS_TX"
 		(at 250.19 121.92 180)
 		(effects
 			(font
@@ -10200,7 +10190,7 @@
 		)
 		(uuid "34dfc6fb-560d-4403-98ec-51e5377c6263")
 	)
-	(label "TRANSCEIVER_RX"
+	(label "TRANSCEIVER_TX"
 		(at 185.42 151.13 180)
 		(effects
 			(font
@@ -10280,7 +10270,7 @@
 		)
 		(uuid "49497d78-de1e-462d-b1fd-dc5ae0c861a3")
 	)
-	(label "USART6_RX"
+	(label "VTX_TX"
 		(at 146.05 116.84 180)
 		(effects
 			(font
@@ -10350,16 +10340,6 @@
 		)
 		(uuid "72d7f45b-2615-4944-9f41-d7f177ee6c2f")
 	)
-	(label "USART1_TX"
-		(at 339.09 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77ff8ccb-9f96-4f0c-b35a-846a6e41fd23")
-	)
 	(label "BMP_SCLK"
 		(at 307.34 157.48 90)
 		(effects
@@ -10399,6 +10379,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e33d198-ddcb-4487-90f9-81b5fa297515")
+	)
+	(label "VTX_RX"
+		(at 339.09 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92e5d26b-56ee-4c21-8c72-0387412f5625")
 	)
 	(label "TIM4_CH2"
 		(at 292.1 55.88 270)
@@ -10460,7 +10450,7 @@
 		)
 		(uuid "a629b486-39e6-4942-95d7-a6855b514d17")
 	)
-	(label "TRANSCEIVER_TX"
+	(label "TRANSCEIVER_RX"
 		(at 185.42 153.67 180)
 		(effects
 			(font
@@ -10479,16 +10469,6 @@
 			(justify right bottom)
 		)
 		(uuid "b6023acd-93c8-437f-a231-b5a420757518")
-	)
-	(label "USART1_RX"
-		(at 339.09 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcccbe0a-60e3-4514-8cfd-b9cb0e5fb694")
 	)
 	(label "STATUS"
 		(at 339.09 106.68 180)
@@ -10630,7 +10610,7 @@
 		)
 		(uuid "df325eac-433a-478d-9893-1d95ce41f3b9")
 	)
-	(label "USART6_TX"
+	(label "VTX_RX"
 		(at 146.05 119.38 180)
 		(effects
 			(font
@@ -10691,7 +10671,7 @@
 		(uuid "e9afd2a9-7d74-4358-95e6-82ef85c50198")
 	)
 	(label "TRANSCEIVER_RX"
-		(at 279.4 157.48 90)
+		(at 279.4 160.02 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10720,7 +10700,7 @@
 		)
 		(uuid "f07ffc05-5bb1-4e48-b7fc-11387629e9e5")
 	)
-	(label "USART5_RX"
+	(label "GPS_TX"
 		(at 337.82 33.02 180)
 		(effects
 			(font
@@ -10730,15 +10710,15 @@
 		)
 		(uuid "f14b34f8-78d9-4257-820d-7fb851a74584")
 	)
-	(label "USART5_TX"
-		(at 307.34 55.88 270)
+	(label "VTX_TX"
+		(at 339.09 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f3d00660-721e-42e4-96cb-f9af3b23ec9f")
+		(uuid "f2000afa-4598-44e1-b8fe-94b2fa5a9fd8")
 	)
 	(label "+5VBAT"
 		(at 214.63 29.21 0)
@@ -10760,7 +10740,7 @@
 		)
 		(uuid "f7756603-e635-4ce1-bb56-44789eddded9")
 	)
-	(label "TIM2_CH2"
+	(label "GPS_RX"
 		(at 250.19 124.46 180)
 		(effects
 			(font
@@ -11995,12 +11975,13 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 281.686 160.02 0)
+			(at 280.162 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
