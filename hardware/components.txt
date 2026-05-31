@@ -37,7 +37,7 @@ INTERFACES:
     GPS	5V, GND, T3, R3 
 
 
-LAYER STACKUP:
+LAYER STACKUP (JLC06161H-7628A Stackup JLCPCB):
 SIGNAL high speed, critical signals, short routes  (USB, Crystal signals, SPI, I2C)
 GND
 VCC 3.3V + 5V
