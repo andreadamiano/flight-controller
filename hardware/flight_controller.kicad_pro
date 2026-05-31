@@ -515,7 +515,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.35,
+        "clearance": 0.2,
         "name": "VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
