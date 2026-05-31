@@ -16293,7 +16293,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a187f05-a535-40b4-8ccd-e3a1fa5fa5bd")
 		(property "Reference" "U2"
 			(at 67.31 92.71 0)
