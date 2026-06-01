@@ -9917,7 +9917,7 @@
 		)
 		(uuid "17159ab2-a3af-49ca-9abc-3f218d64be32")
 	)
-	(label "USB_DN"
+	(label "USB_D_DN"
 		(at 339.09 99.06 180)
 		(effects
 			(font
@@ -10147,7 +10147,7 @@
 		)
 		(uuid "653d43ad-1790-4d35-850d-ec1c21756807")
 	)
-	(label "USB_DP"
+	(label "USB_D_DP"
 		(at 339.09 96.52 180)
 		(effects
 			(font
@@ -10317,7 +10317,7 @@
 		)
 		(uuid "b6023acd-93c8-437f-a231-b5a420757518")
 	)
-	(label "USB_DP"
+	(label "USB_D_DP"
 		(at 299.72 36.83 0)
 		(effects
 			(font
@@ -10357,7 +10357,7 @@
 		)
 		(uuid "c8abd59e-ccb3-466f-8ed2-e3e3a3dd4e29")
 	)
-	(label "USB_DN"
+	(label "USB_D_DN"
 		(at 299.72 34.29 0)
 		(effects
 			(font
