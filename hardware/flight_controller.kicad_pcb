@@ -1733,7 +1733,7 @@
 		(path "/76318c8f-f70a-42bb-8900-4a651d94095a")
 		(sheetname "/")
 		(sheetfile "flight_controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2612,7 +2612,7 @@
 		(path "/1c01c4d1-48b8-4ff1-8584-d84954ae9cbc")
 		(sheetname "/")
 		(sheetfile "flight_controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -2860,7 +2860,7 @@
 		(path "/55390d95-7d0b-4927-8779-16868c6e13f9")
 		(sheetname "/")
 		(sheetfile "flight_controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -5300,11 +5300,11 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "C141723"
 			(at 0 1.43 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -12427,7 +12427,7 @@
 		(path "/3e9d34ae-2638-4f7a-af1d-020e9fbc8498")
 		(sheetname "/")
 		(sheetfile "flight_controller.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.745 -0.735)
 			(end 0 -0.735)

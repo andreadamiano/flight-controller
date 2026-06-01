@@ -16463,7 +16463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R2 5.1KΩ"
+		(property "Value" "5.1KΩ"
 			(at 20.32 42.164 90)
 			(effects
 				(font
@@ -20394,7 +20394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R1 5.1KΩ"
+		(property "Value" "5.1KΩ"
 			(at 91.186 42.164 90)
 			(effects
 				(font
