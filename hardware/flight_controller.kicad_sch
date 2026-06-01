@@ -11882,7 +11882,7 @@
 				)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "33Ω"
 			(at 316.23 242.316 0)
 			(effects
 				(font
@@ -15524,7 +15524,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "YLED0603G"
 			(at 313.69 234.9499 90)
 			(effects
 				(font
@@ -16376,7 +16376,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "YLED0603R"
 			(at 295.91 234.9499 90)
 			(effects
 				(font
@@ -17890,7 +17890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148WT"
+		(property "Value" "YLED0603YG"
 			(at 278.13 236.2199 90)
 			(effects
 				(font
