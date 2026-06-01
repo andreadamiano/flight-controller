@@ -11012,7 +11012,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "KMR221GLFS"
 			(at 284.48 190.5 0)
 			(effects
 				(font
@@ -11683,12 +11683,13 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 228.092 126.238 90)
+		(property "Value" "FCM1608KF-601T03"
+			(at 233.934 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
@@ -13416,7 +13417,7 @@
 		(at 401.32 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14769,13 +14770,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08"
+		(property "Value" "JST SM08B-SRSS-TB(LF)(SN)"
 			(at 205.74 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
@@ -18312,7 +18314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10KΩ"
 			(at 39.37 255.2699 0)
 			(effects
 				(font
@@ -20128,7 +20130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10KΩ"
 			(at 101.6 255.2699 0)
 			(effects
 				(font
