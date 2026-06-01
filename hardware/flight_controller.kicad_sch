@@ -15533,7 +15533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 315.595 233.68 0)
 			(effects
 				(font
@@ -16385,7 +16385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 297.815 233.68 0)
 			(effects
 				(font
@@ -17899,7 +17899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 280.035 234.95 0)
 			(effects
 				(font
