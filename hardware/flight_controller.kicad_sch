@@ -16702,7 +16702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ICM-45686"
+		(property "Value" "LSM6DS3TR"
 			(at 200.2633 207.01 0)
 			(effects
 				(font
