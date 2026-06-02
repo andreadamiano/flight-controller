@@ -1,4 +1,4 @@
-Id,Designator,Footprint,Quantity,Designation,Supplier and ref
+Id,Designator,Footprint,Quantity,Comment,JLCPCB Part
 1,"U4,U2",QFN-8_MP9943_MNP,2,MP9943GQ-Z,C51889390
 2,"C10,C22,C4,C12,C20,C26,C5,C24,C23,C31,C21,C19,C25",C_0402_1005Metric,13,100nF,C60474
 3,"R1,R4,R3,R2",R_0402_1005Metric,4,100KΩ,C60491
