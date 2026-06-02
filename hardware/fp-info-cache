@@ -1,4 +1,4 @@
-27266128059669148
+27267908460386845
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107918,6 +107918,13 @@ GCT_USB4105-GF-A-060
 0
 16
 16
+drone_footprints
+IND_FXL0530_CMT
+
+FXL0530-100-M 
+0
+2
+2
 drone_footprints
 LMR51430
 SOT-23-THIN
