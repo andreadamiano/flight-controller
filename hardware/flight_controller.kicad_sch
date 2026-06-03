@@ -7399,6 +7399,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 238.76) (xy 396.24 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417fb8ae-6356-463e-9957-d50d685b7aea")
+	)
+	(wire
+		(pts
 			(xy 289.56 36.83) (xy 290.83 36.83)
 		)
 		(stroke
@@ -7459,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 238.76) (xy 396.24 238.76)
+			(xy 387.35 241.3) (xy 396.24 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8959,16 +8969,6 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 243.84) (xy 396.24 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfd00fa6-c7c0-42de-a8f0-61af6dd9e777")
-	)
-	(wire
-		(pts
 			(xy 284.48 55.88) (xy 284.48 71.12)
 		)
 		(stroke
@@ -9409,7 +9409,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 241.3) (xy 396.24 241.3)
+			(xy 387.35 243.84) (xy 396.24 243.84)
 		)
 		(stroke
 			(width 0)
@@ -10018,7 +10018,7 @@
 		(uuid "320fc6aa-96b8-417c-9fe0-ac0858a924bc")
 	)
 	(label "JTAG_SWDIO"
-		(at 387.35 241.3 180)
+		(at 387.35 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10448,7 +10448,7 @@
 		(uuid "d73a30c8-48d1-4297-b5bd-23208efc5c08")
 	)
 	(label "JTAG_SWCLK"
-		(at 387.35 238.76 180)
+		(at 387.35 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13157,7 +13157,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 387.35 243.84 0)
+		(at 392.43 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13165,7 +13165,7 @@
 		(dnp no)
 		(uuid "3677be8a-e994-4530-94d8-742a67a15ff8")
 		(property "Reference" "#PWR054"
-			(at 387.35 250.19 0)
+			(at 392.43 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,7 +13174,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 396.24 246.38 0)
+			(at 393.954 236.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 387.35 243.84 0)
+			(at 392.43 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 387.35 243.84 0)
+			(at 392.43 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,7 +13201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 387.35 243.84 0)
+			(at 392.43 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
