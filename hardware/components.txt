@@ -46,3 +46,8 @@ GND
 SIGNAL low speed, peripheral signals, longer runs  (UART, PMW, LED, GPS)
 
 
+TRANSCEIVER:
+    - LTE: https://www.amazon.it/-/en/Multi-Standard-Ultra-Small-Communication-Transmission-Transparent/dp/B0GCDQ6WHS/ref=sr_1_2?crid=J071EXVYGBM5&dib=eyJ2IjoiMSJ9.JgxUtTSxSEhSYmZQM72Ot85coMcu_ezRMXrDQdYVN8QQ1iF6cNEMLdpgGMF9CI-qEBxGLavmROeiFHz3oC_aa88g0rFgblwEXUIc4zBmIDXmMG5JEYU2CtNhOcNlU0No.4Tr7zZggNm0U61XfwCDsSl2Yo1k-eqXDEe3T4F6vad8&dib_tag=se&keywords=air780%2B4g%2Blte&qid=1781163749&s=electronics&sprefix=air780%2B4g%2Blte%2Celectronics%2C124&sr=1-2&th=1
+    - EG915U-EU datasheet (https://auroraevernet.ru/upload/iblock/9e5/x9n30h1ngl8vruwqj9qtysyz3r9yg0cr.pdf)
+
+
