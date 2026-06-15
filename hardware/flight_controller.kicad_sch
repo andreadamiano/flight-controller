@@ -11221,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Value" "100KΩ"
+		(property "Value" "1MΩ"
 			(at 27.94 112.522 90)
 			(effects
 				(font
@@ -15688,7 +15688,7 @@
 				)
 			)
 		)
-		(property "Value" "100KΩ"
+		(property "Value" "1MΩ"
 			(at 365.76 116.332 90)
 			(effects
 				(font
@@ -18253,7 +18253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "1μF"
 			(at 98.552 87.376 0)
 			(effects
 				(font
@@ -19060,7 +19060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μF"
+		(property "Value" "1μF"
 			(at 436.372 91.186 0)
 			(effects
 				(font
