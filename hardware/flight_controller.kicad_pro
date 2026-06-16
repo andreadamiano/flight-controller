@@ -579,7 +579,7 @@
       "idf": "",
       "netlist": "",
       "plot": "production/",
-      "pos_files": "production/",
+      "pos_files": "/home/andrea/Downloads/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
