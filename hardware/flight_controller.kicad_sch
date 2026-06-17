@@ -6799,6 +6799,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 44.45) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e413b88-f9e2-4126-a429-b4b12f7307a0")
+	)
+	(wire
+		(pts
 			(xy 424.18 200.66) (xy 431.8 200.66)
 		)
 		(stroke
@@ -6856,16 +6866,6 @@
 			(type default)
 		)
 		(uuid "11a71cab-d3ea-4a2c-b1ef-6ff9c51ac50a")
-	)
-	(wire
-		(pts
-			(xy 214.63 44.45) (xy 236.22 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1206ae98-9522-41b9-82e3-b504ee04ea66")
 	)
 	(wire
 		(pts
@@ -8239,7 +8239,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 87.63 39.37)
+			(xy 74.93 39.37) (xy 83.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8419,7 +8419,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 29.21) (xy 236.22 29.21)
+			(xy 220.98 29.21) (xy 236.22 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10267,16 +10267,6 @@
 		)
 		(uuid "96fa0366-954e-49c1-8d34-b24aef9fda56")
 	)
-	(label "+5VBUS"
-		(at 214.63 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9823caf9-2b7a-4dc2-9adb-328b21b2abae")
-	)
 	(label "BMP_SDI"
 		(at 309.88 157.48 90)
 		(effects
@@ -10387,16 +10377,6 @@
 		)
 		(uuid "ca9ae1b8-e916-49e2-8149-f0ec803726ac")
 	)
-	(label "+5VBUS"
-		(at 87.63 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce2152ca-39c0-4291-9e8f-33369cbb415e")
-	)
 	(label "ESC_USART_RX"
 		(at 304.8 55.88 270)
 		(effects
@@ -10456,16 +10436,6 @@
 			(justify right bottom)
 		)
 		(uuid "dcf4938e-0b7e-4b32-a6cf-067da6de7e6e")
-	)
-	(label "VBAT"
-		(at 198.12 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "df325eac-433a-478d-9893-1d95ce41f3b9")
 	)
 	(label "VTX_RX"
 		(at 146.05 119.38 180)
@@ -10576,16 +10546,6 @@
 			(justify right bottom)
 		)
 		(uuid "f2000afa-4598-44e1-b8fe-94b2fa5a9fd8")
-	)
-	(label "+5VBAT"
-		(at 214.63 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5eb6601-7bc5-4598-8bb6-893eb64fccb1")
 	)
 	(label "FLASH_MOSI"
 		(at 106.68 266.7 0)
@@ -11813,6 +11773,71 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 198.12 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a1e223a-5ecc-406d-ace6-066cd91141d4")
+		(property "Reference" "#PWR068"
+			(at 198.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 194.31 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "525f9aff-c090-4eff-ac29-18fb42e3da01")
+		)
+		(instances
+			(project "flight_controller"
+				(path "/872311d7-35d2-44c4-a32c-18d15c37103e"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 220.98 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12653,6 +12678,71 @@
 			(project ""
 				(path "/872311d7-35d2-44c4-a32c-18d15c37103e"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 83.82 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d9efcfc-0aa9-4ffa-ba9b-9efe7db8f988")
+		(property "Reference" "#PWR058"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VBUS"
+			(at 79.502 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69ac862-075c-4822-ad19-e65d53f26c93")
+		)
+		(instances
+			(project "flight_controller"
+				(path "/872311d7-35d2-44c4-a32c-18d15c37103e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18037,6 +18127,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 220.98 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b02d6005-4490-4f19-b80d-b48f669ebe56")
+		(property "Reference" "#PWR069"
+			(at 220.98 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VBAT"
+			(at 216.662 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04fb91ce-b311-433a-b773-2595db5d7856")
+		)
+		(instances
+			(project "flight_controller"
+				(path "/872311d7-35d2-44c4-a32c-18d15c37103e"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 459.74 121.92 0)
 		(unit 1)
@@ -20322,6 +20477,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 220.98 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f01c7ef4-a59e-40d4-952e-3902fba7ad4f")
+		(property "Reference" "#PWR067"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VBUS"
+			(at 216.662 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 220.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ed7f450-da52-4c2a-a28b-f029d3264884")
+		)
+		(instances
+			(project "flight_controller"
+				(path "/872311d7-35d2-44c4-a32c-18d15c37103e"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 443.23 95.25 0)
 		(unit 1)
@@ -20737,7 +20957,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 86.36 34.29 0)
+			(at 92.71 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
